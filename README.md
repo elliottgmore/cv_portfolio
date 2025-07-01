@@ -1,8 +1,4 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/32fe8896-d36f-46ba-b569-a4f7aa7bcb52
+# Welcome to your project
 
 ## How can I edit this code?
 
@@ -61,11 +57,3 @@ This project is configured for GitHub Pages deployment. To deploy:
 **Important**: The `.nojekyll` file is included to prevent Jekyll processing, which is necessary for React applications on GitHub Pages.
 
 **Note**: Make sure GitHub Pages is configured to serve from the `dist` directory or use GitHub Actions to build and deploy automatically.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
