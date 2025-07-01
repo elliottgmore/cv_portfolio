@@ -8,46 +8,27 @@ This guide explains how to deploy the CV Portfolio to GitHub Pages.
 2. **React Router**: Added `basename="/cv_portfolio"` to `BrowserRouter` in `App.tsx`
 3. **Jekyll Disabled**: Added `.nojekyll` file to prevent Jekyll processing
 
-## Deployment Options
+## Deployment Method: Deploy from Branch
 
-### Option 1: Manual Deployment
-1. Run `npm run build` to create the `dist` folder
-2. Deploy the contents of the `dist` folder to GitHub Pages
-3. Configure GitHub Pages to serve from the correct source
+This project is configured to use GitHub Pages' "Deploy from a branch" option, which automatically deploys when changes are pushed to the main branch.
 
-### Option 2: GitHub Actions (Recommended)
-Create a GitHub Actions workflow to automatically build and deploy:
+### How it works:
+1. The `dist` folder containing built files is committed to the repository
+2. GitHub Pages serves the built application directly from the `dist` folder
+3. When you push changes to main, GitHub Pages automatically updates the live site
 
-```yaml
-name: Deploy to GitHub Pages
+### To deploy changes:
+1. Make your code changes
+2. Run `npm run build` to rebuild the application
+3. Commit both your source changes and the updated `dist` folder
+4. Push to the main branch
+5. GitHub Pages will automatically serve the updated site
 
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Build
-      run: npm run build
-      
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-```
+### One-time GitHub Pages Setup:
+1. Go to your repository's Settings → Pages
+2. Set Source to "Deploy from a branch"
+3. Select branch "main" and folder "/docs" or configure to serve from the `dist` folder
+4. Save the settings
 
 ## Verification
 

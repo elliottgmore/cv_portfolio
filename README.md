@@ -48,12 +48,15 @@ This project is built with:
 
 ## How can I deploy this project?
 ### Deploy to GitHub Pages
-This project is configured for GitHub Pages deployment. To deploy:
+This project is configured for GitHub Pages deployment using "Deploy from a branch":
 
-1. **Build the project**: `npm run build`
-2. **Deploy the `dist` folder** to GitHub Pages
-3. The project is configured with the correct base path (`/cv_portfolio/`) for GitHub Pages
+1. **Make changes** to your code
+2. **Build the project**: `npm run build`
+3. **Commit all changes** including the updated `dist` folder: `git add . && git commit -m "Update site"`
+4. **Push to main branch**: `git push origin main`
+5. **GitHub Pages automatically serves** the updated site from the `dist` folder
 
-**Important**: The `.nojekyll` file is included to prevent Jekyll processing, which is necessary for React applications on GitHub Pages.
-
-**Note**: Make sure GitHub Pages is configured to serve from the `dist` directory or use GitHub Actions to build and deploy automatically.
+**Configuration**: 
+- The project includes the correct base path (`/cv_portfolio/`) for GitHub Pages
+- The `.nojekyll` file prevents Jekyll processing
+- The `dist` folder is now committed to the repository to enable "deploy from branch"
