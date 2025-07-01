@@ -39,7 +39,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold text-blue-300">
               Dr. Elliott More
             </span>
           </div>
@@ -50,14 +50,14 @@ export const Navigation = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                className="text-gray-700 hover:text-blue-300 transition-colors duration-300 font-medium"
               >
                 {item.label}
               </button>
             ))}
             <Button
               onClick={() => window.open("https://drive.google.com/file/d/1c3dt5pIQnCtdZaqDBohujiGCS3crdQJ_/view?usp=sharing", "_blank")}
-              className="bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-blue-300 hover:bg-blue-400 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <Download className="w-4 h-4 mr-2" />
               Download CV
@@ -68,7 +68,7 @@ export const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-blue-600 transition-colors duration-300"
+              className="text-gray-700 hover:text-blue-300 transition-colors duration-300"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -83,14 +83,14 @@ export const Navigation = () => {
                 <button
                   key={item.href}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium text-left"
+                  className="text-gray-700 hover:text-blue-300 transition-colors duration-300 font-medium text-left"
                 >
                   {item.label}
                 </button>
               ))}
               <Button
                 onClick={() => window.open("https://drive.google.com/file/d/1c3dt5pIQnCtdZaqDBohujiGCS3crdQJ_/view?usp=sharing", "_blank")}
-                className="bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full"
+                className="bg-blue-300 hover:bg-blue-400 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 w-full"
               >
                 <Download className="w-4 h-4 mr-2" />
                 Download CV

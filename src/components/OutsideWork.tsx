@@ -31,7 +31,7 @@ export const OutsideWork = () => {
   ];
 
   return (
-    <section id="outside-work" className="py-16 px-6 bg-gradient-to-br from-blue-50/30 to-green-50/30">
+    <section id="outside-work" className="py-16 px-6 bg-blue-50/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
@@ -53,7 +53,7 @@ export const OutsideWork = () => {
                       <div className="grid md:grid-cols-2 gap-0 min-h-[380px]">
                         {/* Image Section */}
                         <div className="relative overflow-hidden">
-                          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-green-600/10 z-10"></div>
+                          <div className="absolute inset-0 bg-blue-300/10 z-10"></div>
                           <img 
                             src={activity.image}
                             alt={activity.alt}
