@@ -52,11 +52,12 @@ This project is configured for GitHub Pages deployment using "Deploy from a bran
 
 1. **Make changes** to your code
 2. **Build the project**: `npm run build`
-3. **Commit all changes** including the updated `dist` folder: `git add . && git commit -m "Update site"`
-4. **Push to main branch**: `git push origin main`
-5. **GitHub Pages automatically serves** the updated site from the `dist` folder
+3. **Copy built files to docs**: `cp -r dist/* docs/`
+4. **Commit all changes** including the updated `dist` and `docs` folders: `git add . && git commit -m "Update site"`
+5. **Push to main branch**: `git push origin main`
+6. **GitHub Pages automatically serves** the updated site from the `docs` folder
 
 **Configuration**: 
 - The project includes the correct base path (`/cv_portfolio/`) for GitHub Pages
 - The `.nojekyll` file prevents Jekyll processing
-- The `dist` folder is now committed to the repository to enable "deploy from branch"
+- The `docs` folder contains a copy of built files for GitHub Pages deployment
