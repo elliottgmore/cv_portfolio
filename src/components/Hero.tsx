@@ -12,7 +12,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-50 to-green-50 p-2">
                 <img 
-                  src="/images/94f97221-41c1-4f10-a505-c9700bcda1ef.png"
+                  src="/cv_portfolio/images/94f97221-41c1-4f10-a505-c9700bcda1ef.png"
                   alt="Dr. Elliott More"
                   className="w-full h-full object-cover rounded-2xl"
                 />

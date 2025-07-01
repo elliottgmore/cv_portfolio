@@ -13,7 +13,7 @@ export const Timeline = () => {
       endyear: 2007.06,
       company: "University of Warwick",
       link: "https://warwick.ac.uk/",
-      logo: "/images/warwick.png",
+      logo: "/cv_portfolio/images/warwick.png",
       grade: "First Class Honours",
       color: "bg-green-400",
       description: "Master of Mechanical Engineering (MEng)",
@@ -31,7 +31,7 @@ export const Timeline = () => {
       endyear: 2009.06,
       company: "London South Bank University",
       link: "https://www.lsbu.ac.uk/",
-      logo: "/images/lsbu.png",
+      logo: "/cv_portfolio/images/lsbu.png",
       grade: "",
       color: "bg-green-400",
       description: "Part-time Postgraduate Diploma - Building Services Engineering",
@@ -51,7 +51,7 @@ export const Timeline = () => {
       endyear: 2011.05,
       company: "University of Cambridge",
       link: "https://www.cam.ac.uk/",
-      logo: "/images/camb.jpg",
+      logo: "/cv_portfolio/images/camb.jpg",
       grade: "",
       color: "bg-green-400",
       description: "Master of Philosophy - Research focus",
@@ -68,7 +68,7 @@ export const Timeline = () => {
       endyear: 2015.12,
       company: "University of Cambridge",
       link: "https://www.cam.ac.uk/",
-      logo: "/images/camb.jpg",
+      logo: "/cv_portfolio/images/camb.jpg",
       grade: "",
       color: "bg-green-400",
       description: "I explored how cognitive biases inhibit rational decision-making about the future. I worked with a strategy consultancy firm to review the quality of foresight in senior execs in manufacturing firms. I also conducted a comparative analysis between UK and Chinese firms (spending 6 months in Beijing, hosted at Tsinghua University). I developed and tested an improved foresight process (with the help of the strategy consulting firm) and determined a material improvement in both the quality and breadth of foresight exhibited by decision makers.",
@@ -88,7 +88,7 @@ export const Timeline = () => {
       endyear: 2023.03,
       company: "Google Data Analytics Professional Certificate",
       link: "https://www.coursera.org/professional-certificates/google-data-analytics",
-      logo: "/images/coursera.png",
+      logo: "/cv_portfolio/images/coursera.png",
       color: "bg-green-400",
       description: "Data Analytics Professional Certificate",
       projects: [
@@ -106,7 +106,7 @@ export const Timeline = () => {
       endyear: 2024.10,
       company: "Javascript and React fundamentals",
       link: "https://www.coursera.org/learn/react-fundamentals",
-      logo: "/images/coursera.png",
+      logo: "/cv_portfolio/images/coursera.png",
       color: "bg-green-400",
       description: "Javascript and React fundamentals",
       projects: [
@@ -125,7 +125,7 @@ export const Timeline = () => {
       endyear: 2010.07,
       company: "Sweco Engineering Consultancy",
       link: "https://www.sweco.com/",
-      logo: "/images/sweco.jpg",
+      logo: "/cv_portfolio/images/sweco.jpg",
       color: "bg-blue-700",
       description: "Early career mechanical and energy engineering experience",
       projects: [
@@ -142,7 +142,7 @@ export const Timeline = () => {
       endyear: 2012.10,
       company: "UNFCCC",
       link: "https://unfccc.int/",
-      logo: "/images/unfccc.jpg",
+      logo: "/cv_portfolio/images/unfccc.jpg",
       color: "bg-blue-500",
       isSecondment: true,
       description: "Secondment to the UNFCCC to deliver expert advice on the Technology Roadmaps",
@@ -158,7 +158,7 @@ export const Timeline = () => {
       endyear: 2013.09,
       company: "Government Office for Science",
       link: "https://assets.publishing.service.gov.uk/media/5a7c321140f0b67d0b11f7e6/13-810-future-manufacturing-summary-report.pdf",
-      logo: "/images/gofs.png",
+      logo: "/cv_portfolio/images/gofs.png",
       color: "bg-blue-500",
       isSecondment: true,
       description: "Secondment from PhD to the Government Office for Science to work on the Future of Manufacturing project",
@@ -175,7 +175,7 @@ export const Timeline = () => {
       endyear: 2021.08,
       company: "Arup",
       link: "https://www.arup.com/",
-      logo: "/images/Arup.png",
+      logo: "/cv_portfolio/images/Arup.png",
       color: "bg-blue-700",
       description: "Senior engineering consultant role at world-renowned firm",
       projects: [
@@ -191,7 +191,7 @@ export const Timeline = () => {
       endyear: 2021.03,
       company: "C40 Cities",
       link: "https://www.c40.org/",
-      logo: "/images/C40.png",
+      logo: "/cv_portfolio/images/C40.png",
       color: "bg-blue-500",
       isSecondment: true,
       description: "European CAP Programme Manager, working directly with city officials across Europe & some of Middle East to help them develop a Climate Action Plan which is consistent with the 1.5°C Paris Agreement.",
@@ -209,7 +209,7 @@ export const Timeline = () => {
       endyear: 2023.10,
       company: "Engineering & Design Consultancy",
       link: "https://www.ramboll.com/",
-      logo: "/images/ramboll.png",
+      logo: "/cv_portfolio/images/ramboll.png",
       color: "bg-blue-700",
       description: "Decarbonisation & Digitalisation Lead, Management team member",
       projects: [
@@ -226,7 +226,7 @@ export const Timeline = () => {
       endyear: 2023.12,
       company: "Break to build a log cabin",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7139043341559566336/",
-      logo: "/images/cabin.png",
+      logo: "/cv_portfolio/images/cabin.png",
       color: "bg-blue-500",
       isSecondment: true,
       description: "Built a log cabin in the wilds of Northern California",
@@ -241,7 +241,7 @@ export const Timeline = () => {
       endyear: 2025.06,
       company: "Freelance Decarboinisation Specialist",
       link: "https://emoreconsulting.com/",
-      logo: "/images/EMC.png",
+      logo: "/cv_portfolio/images/EMC.png",
       color: "bg-blue-700",
       description: "Helping companies with measuring their GHG emissions, setting reduction targets, and co-creating a reduction strategy.",
       projects: [
@@ -395,7 +395,9 @@ export const Timeline = () => {
                           alt={`${selected.company} logo`}
                           className="max-w-full max-h-full object-contain"
                           onClick={() => window.open(selected.link, '_blank', 'noopener,noreferrer')}
+                          onLoad={() => console.log(`Logo loaded successfully: ${selected.logo}`)}
                           onError={(e) => {
+                            console.error(`Failed to load logo: ${selected.logo}`);
                             // Fallback to company name if logo fails to load
                             const target = e.target as HTMLImageElement;
                             target.style.display = 'none';
