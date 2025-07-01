@@ -24,21 +24,13 @@ export const CTA = () => {
               Connect on LinkedIn
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-blue-300 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105"
-              onClick={() => window.open("https://drive.google.com/file/d/1c3dt5pIQnCtdZaqDBohujiGCS3crdQJ_/view?usp=sharing", "_blank")}
-            >
-              <Download className="w-5 h-5 mr-2" />
-              Download CV
-            </Button>
+            
           </div>
         </div>
         
         <div className="mt-12 text-gray-600">
           <p className="text-lg">
-            Dr. Elliott More PhD CEng • Climate Specialist • Sustainability Leader
+            Decarbonisation Specialist • Thought Leader
           </p>
           <p className="text-sm mt-2">
             Building trusted relationships through innovative engineering solutions

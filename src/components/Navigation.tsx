@@ -19,8 +19,8 @@ export const Navigation = () => {
     { href: "#about", label: "About" },
     { href: "#timeline", label: "Experience" },
     { href: "#tools", label: "Tools" },
-    { href: "#outside-work", label: "Outside Work" },
     { href: "#testimonials", label: "Testimonials" },
+    { href: "#outside-work", label: "Outside Work" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -40,7 +40,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-bold text-blue-300">
-              Dr. Elliott More
+              Elliott More PhD CEng
             </span>
           </div>
 

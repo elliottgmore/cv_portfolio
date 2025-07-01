@@ -13,19 +13,19 @@ export const OutsideWork = () => {
     {
       title: "I love to volunteer",
       description: "I am a proud volunteer Surf Lifesaver at Bondi Beach. This role has sharpened my crisis management skills, ability to work under pressure, and strengthened my commitment to community service. The teamwork and quick decision-making required in emergency situations translates directly to collaborative problem-solving in my professional work. It keeps me grounded and reminds me of the importance of giving back.",
-      image: "/lovable-uploads/6248ac21-03e7-457f-8530-3ed9fb9a10df.png",
+      image: "/images/6248ac21-03e7-457f-8530-3ed9fb9a10df.png",
       alt: "Volunteer Surf Lifesavers at Bondi Beach"
     },
     {
       title: "Play sports",
       description: "I have played Ultimate Frisbee since falling in love with the sport at University, and have been lucky enough to compete internationally with both the Australian and Great Britain teams. The sport has taught me strategic thinking, adaptability under pressure, and the value of clear communication. The international competition experience has enhanced my ability to work with diverse teams and adapt quickly to new environments - skills that are invaluable in today's global workplace.",
-      image: "/lovable-uploads/3ec05652-4f9e-40f4-926d-bdcecf75702a.png",
+      image: "/images/3ec05652-4f9e-40f4-926d-bdcecf75702a.png",
       alt: "Playing Ultimate Frisbee"
     },
     {
       title: "Get out in nature",
       description: "Spending as much time out of the city is vital to me. I recently got to live out my boyhood dream of building an off-grid log cabin in the wilds of Northern California. This project taught me patience, resourcefulness, and the satisfaction of building something from scratch. The planning, problem-solving, and hands-on work required mirror many aspects of project management and creative thinking. These nature escapes provide the mental clarity and renewed perspective essential for innovative thinking in my professional life.",
-      image: "/lovable-uploads/ccd79284-f3ad-4652-b733-07a88e37a1ce.png",
+      image: "/images/ccd79284-f3ad-4652-b733-07a88e37a1ce.png",
       alt: "Building log cabin in Northern California"
     }
   ];

@@ -55,11 +55,7 @@ export const About = () => {
               from technical GHG assessments to strategic implementation planning, ensuring clients can 
               meet their sustainability commitments while maintaining business objectives.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Previously as Decarbonisation & Digitalisation lead at Ramboll Denmark, I was part of the 
-              management team for a 40-person Strategic Sustainability department, demonstrating both 
-              technical expertise and leadership capabilities in scaling climate solutions.
-            </p>
+            
           </div>
         </div>
       </div>

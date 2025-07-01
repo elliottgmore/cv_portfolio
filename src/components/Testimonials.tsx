@@ -4,28 +4,28 @@ import { Card } from "@/components/ui/card";
 export const Testimonials = () => {
   const testimonials = [
     {
-      text: "Elliott's technical expertise and strategic thinking have been instrumental in developing our net-zero transition plan. His ability to translate complex climate science into actionable business strategies is exceptional.",
-      author: "Sarah Chen",
-      role: "Head of Sustainability, Major Pension Fund",
-      company: "International Investment Group"
+      text: "Elliott is a true climate champion. We worked together at Rambøll, delivering on the most ambitious sustainability projects in order to transfrom the construction industry in Denmark. Elliott is always focused and combines his technical experience with creativity to find unique solutions for each client. I hope that we have the opportunity to work together in the future!",
+      author: "Nanna Lee Thusgaard",
+      role: "Sustainability Nerd",
+      company: "ex-Ramboll"
     },
     {
-      text: "Working with Elliott at Ramboll was inspiring. His leadership in the sustainability department and innovative approach to decarbonisation challenges consistently delivered outstanding results for our clients.",
-      author: "Michael Andersen",
-      role: "Senior Consultant",
-      company: "Ramboll Denmark"
+      text: "I had the pleasure of working with Elliott during his secondment to C40, where he led the delivery of critical, timely, technical assistance to European member cities. Elliott combines technical aptitude with human understanding, making him uniquely able to provide complex technical support and manage relationships. I look forward to working with Elliott again.",
+      author: "Julia Lipton",
+      role: "Climate Action Lead",
+      company: "C40 Cities"
     },
     {
-      text: "Elliott's work on our climate action plan at C40 was exemplary. His programme management of 15 cities simultaneously while providing deep technical expertise was remarkable and highly effective.",
-      author: "Dr. Maria Rodriguez",
-      role: "Director of Climate Planning",
-      company: "C40 Cities Climate Leadership Group"
+      text: "I had the pleasure of working closely with Elliott both during our time at the C40 Climate Leadership Group and at Ramboll. Elliott is not just a valuable team member, but a true driving force behind advancing the sustainability agenda. His commitment to this cause is unwavering, and he possesses a rare ability to lead and inspire others to join him in pushing the boundaries of analysis and ambition to achieve impactful results.",
+      author: "Paulina Lis",
+      role: "Urban sustainability transitions",
+      company: "Ramboll"
     },
     {
-      text: "Elliott brings a unique combination of engineering rigor and climate expertise. His trusted advisor approach has helped us challenge our assumptions and develop more robust sustainability strategies.",
-      author: "James Thompson",
-      role: "Chief Sustainability Officer",
-      company: "Real Estate Investment Trust"
+      text: "Elliott is a true climate champion. We worked together supporting climate leading cities deliver on the most ambitious objectives of the Paris Agreement. What an adventure! He was absolutely key in the success of this program. Always focused, tremendously well-organised, paying attention to every detail and with a strong solid technical background that always amazed me and made me feel supported. I hope that we have the opportunity to work together in the future!",
+      author: "Júlia López Ventura",
+      role: "European Regional Director",
+      company: "C40 Cities"
     }
   ];
 

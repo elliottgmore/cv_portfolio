@@ -12,7 +12,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-50 to-green-50 p-2">
                 <img 
-                  src="/lovable-uploads/94f97221-41c1-4f10-a505-c9700bcda1ef.png"
+                  src="/images/94f97221-41c1-4f10-a505-c9700bcda1ef.png"
                   alt="Dr. Elliott More"
                   className="w-full h-full object-cover rounded-2xl"
                 />
@@ -27,16 +27,14 @@ export const Hero = () => {
           <div className="order-1 lg:order-2 text-center lg:text-left">
             <div className="mb-8 animate-fade-in">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-green-900 bg-clip-text text-transparent leading-tight">
-                Climate Specialist
+                Decarbonisation Specialist
                 <br />
-                <span className="text-3xl md:text-5xl lg:text-6xl">Building a Sustainable Future</span>
+                
               </h1>
             </div>
             
             <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-4">
-                Dr. Elliott More PhD CEng
-              </p>
+              
               <p className="text-lg text-gray-500 leading-relaxed">
                 15 years of experience designing innovative engineering solutions for decarbonisation, 
                 sustainability, and climate action. From mechanical engineering to leading climate strategies 
