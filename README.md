@@ -62,7 +62,19 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Deploy with Lovable
 Simply open [Lovable](https://lovable.dev/projects/32fe8896-d36f-46ba-b569-a4f7aa7bcb52) and click on Share -> Publish.
+
+### Deploy to GitHub Pages
+This project is configured for GitHub Pages deployment. To deploy:
+
+1. **Build the project**: `npm run build`
+2. **Deploy the `dist` folder** to GitHub Pages
+3. The project is configured with the correct base path (`/cv_portfolio/`) for GitHub Pages
+
+**Important**: The `.nojekyll` file is included to prevent Jekyll processing, which is necessary for React applications on GitHub Pages.
+
+**Note**: Make sure GitHub Pages is configured to serve from the `dist` directory or use GitHub Actions to build and deploy automatically.
 
 ## Can I connect a custom domain to my Lovable project?
 
