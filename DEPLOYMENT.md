@@ -20,11 +20,11 @@ This project is configured to use GitHub Pages' "Deploy from a branch" option, w
 
 ### To deploy changes:
 1. Make your code changes
-2. Run `npm run build` to rebuild the application
-3. Copy the built files to the docs folder: `cp -r dist/* docs/`
-4. Commit both your source changes and the updated `dist` and `docs` folders
-5. Push to the main branch
-6. GitHub Pages will automatically serve the updated site
+2. Run the build and deploy script: `./build-and-deploy.sh`
+   - Or manually: Run `npm run build`, then `cp -r dist/* docs/`
+3. Commit both your source changes and the updated `dist` and `docs` folders
+4. Push to the main branch
+5. GitHub Pages will automatically serve the updated site
 
 ### One-time GitHub Pages Setup:
 1. Go to your repository's Settings → Pages
