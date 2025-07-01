@@ -9,8 +9,8 @@ export const Timeline = () => {
     {
       id: "meng",
       title: "MEng Engineering",
-      startyear: 2003.9,
-      endyear: 2007.6,
+      startyear: 2003.09,
+      endyear: 2007.06,
       company: "University of Warwick",
       link: "https://warwick.ac.uk/",
       logo: "/images/warwick.png",
@@ -18,6 +18,7 @@ export const Timeline = () => {
       color: "bg-green-400",
       description: "Master of Mechanical Engineering (MEng)",
       projects: [
+        "IMEchE Individual Project Award",
         "Advanced thermodynamics and fluid mechanics",
         "Sustainable energy systems design",
         "Engineering project management"
@@ -26,14 +27,14 @@ export const Timeline = () => {
     {
       id: "pgdip",
       title: "PGDip",
-      startyear: 2007.9,
-      endyear: 2009.6,
+      startyear: 2007.09,
+      endyear: 2009.06,
       company: "London South Bank University",
       link: "https://www.lsbu.ac.uk/",
-      logo: "https://www.lsbu.ac.uk/_resources/images-new/logos/lsbu-logo/LSBU-Logo_2023-v2.svg",
+      logo: "/images/lsbu.png",
       grade: "",
       color: "bg-green-400",
-      description: "Postgraduate Diploma - Building Services Engineering",
+      description: "Part-time Postgraduate Diploma - Building Services Engineering",
       projects: [
         "Air Conditioning and Refrigeration",
         "Plumbing and Drainage",
@@ -46,8 +47,8 @@ export const Timeline = () => {
     {
       id: "mphil",
       title: "MPhil",
-      startyear: 2010.9,
-      endyear: 2011.5,
+      startyear: 2010.09,
+      endyear: 2011.05,
       company: "University of Cambridge",
       link: "https://www.cam.ac.uk/",
       logo: "/images/camb.jpg",
@@ -63,7 +64,7 @@ export const Timeline = () => {
     {
       id: "phd",
       title: "PhD in Foresight",
-      startyear: 2012.1,
+      startyear: 2012.01,
       endyear: 2015.12,
       company: "University of Cambridge",
       link: "https://www.cam.ac.uk/",
@@ -82,12 +83,12 @@ export const Timeline = () => {
     },
     {
       id: "cert",
-      title: "Coursera",
-      startyear: 2022.2,
-      endyear: 2023.3,
+      title: "Data",
+      startyear: 2022.02,
+      endyear: 2023.03,
       company: "Google Data Analytics Professional Certificate",
       link: "https://www.coursera.org/professional-certificates/google-data-analytics",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/500px-Coursera_logo_%282020%29.svg.png",
+      logo: "/images/coursera.png",
       color: "bg-green-400",
       description: "Data Analytics Professional Certificate",
       projects: [
@@ -97,6 +98,22 @@ export const Timeline = () => {
         "Data Modeling",
         "Data Storytelling"
       ]
+    },
+    {
+      id: "react",
+      title: "React",
+      startyear: 2023.10,
+      endyear: 2024.10,
+      company: "Javascript and React fundamentals",
+      link: "https://www.coursera.org/learn/react-fundamentals",
+      logo: "/images/coursera.png",
+      color: "bg-green-400",
+      description: "Javascript and React fundamentals",
+      projects: [
+        "Javascript and React fundamentals",
+        "Webapp development",
+        "GitHub"
+      ]
     }
   ];
 
@@ -104,42 +121,61 @@ export const Timeline = () => {
     {
       id: "sweco",
       title: "Sweco",
-      startyear: 2007.9,
-      endyear: 2010.6,
+      startyear: 2007.09,
+      endyear: 2010.07,
       company: "Sweco Engineering Consultancy",
       link: "https://www.sweco.com/",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Logo_Sweco.jpg/120px-Logo_Sweco.jpg?20231211152701",
+      logo: "/images/sweco.jpg",
       color: "bg-blue-700",
       description: "Early career mechanical and energy engineering experience",
       projects: [
-        "Building services engineering",
-        "Energy efficiency assessments",
-        "HVAC system design and optimization"
+        "Graduate of the year award",
+        "St Botolphs - London - Office Development",
+        "Vauxhall Cross - London - Residential Development",
+        "107 Cheapside - London - Retail Fitout"
+      ]
+    },  
+    {
+      id: "unfccc",
+      title: "",
+      startyear: 2012.07,
+      endyear: 2012.10,
+      company: "UNFCCC",
+      link: "https://unfccc.int/",
+      logo: "/images/unfccc.jpg",
+      color: "bg-blue-500",
+      isSecondment: true,
+      description: "Secondment to the UNFCCC to deliver expert advice on the Technology Roadmaps",
+      projects: [
+        "Consultant for the Technology Executive Committee (TEC) on the current state of climate change technology roadmaps (TRMs).",
+        "Presented initial findings in early September at the UNFCCC 4th meeting of the TEC in Bangkok."
       ]
     },
     {
       id: "gofs",
-      title: "GOFS",
-      startyear: 2013.3,
-      endyear: 2013.9,
+      title: "",
+      startyear: 2013.03,
+      endyear: 2013.09,
       company: "Government Office for Science",
       link: "https://assets.publishing.service.gov.uk/media/5a7c321140f0b67d0b11f7e6/13-810-future-manufacturing-summary-report.pdf",
-      logo: "https://upload.wikimedia.org/wikipedia/en/2/28/Government_Office_for_Science_logo.svg",
+      logo: "/images/gofs.png",
       color: "bg-blue-500",
       isSecondment: true,
       description: "Secondment from PhD to the Government Office for Science to work on the Future of Manufacturing project",
       projects: [
-        "Contributed to workshops and reports"
+        "The Foresight project examined the nature of manufacturing and its role over the next 40 years to the UK and global economies.",
+        "The project delivered recommendations to the UK Government in Autumn 2013, providing a timely look at the long-term picture for the manufacturing sector out to 2050, investigating global trends and drivers of change.",
+        "This aligned closely with Elliott's research into the influence of macro sustainability trends and drivers on corporate strategy in the manufacturing sector."
       ]
     },
     {
       id: "arup",
       title: "Arup",
-      startyear: 2015.9,
-      endyear: 2021.9,
+      startyear: 2015.12,
+      endyear: 2021.08,
       company: "Arup",
       link: "https://www.arup.com/",
-      logo: "https://www.arup.com/globalassets/images/site-assets/logo.svg?width=150&quality=80",
+      logo: "/images/Arup.png",
       color: "bg-blue-700",
       description: "Senior engineering consultant role at world-renowned firm",
       projects: [
@@ -151,14 +187,14 @@ export const Timeline = () => {
     {
       id: "c40",
       title: "C40",
-      startyear: 2020.5,
-      endyear: 2021.5,
+      startyear: 2020.05,
+      endyear: 2021.03,
       company: "C40 Cities",
       link: "https://www.c40.org/",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/C40_Logo_RGB_72dpi.png",
+      logo: "/images/C40.png",
       color: "bg-blue-500",
       isSecondment: true,
-      description: "Programme managed 15 cities' climate action plans",
+      description: "European CAP Programme Manager, working directly with city officials across Europe & some of Middle East to help them develop a Climate Action Plan which is consistent with the 1.5°C Paris Agreement.",
       projects: [
         "GHG inventory development for major cities",
         "Net-zero mitigation trajectory planning",
@@ -169,11 +205,11 @@ export const Timeline = () => {
     {
       id: "ramboll",
       title: "Ramboll",
-      startyear: 2021.9,
-      endyear: 2023.11,
+      startyear: 2021.09,
+      endyear: 2023.10,
       company: "Engineering & Design Consultancy",
       link: "https://www.ramboll.com/",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYsQ8I-_ETwCpQyMYk5Mc3CdkzpAWqoYyUlw&s",
+      logo: "/images/ramboll.png",
       color: "bg-blue-700",
       description: "Decarbonisation & Digitalisation Lead, Management team member",
       projects: [
@@ -185,27 +221,27 @@ export const Timeline = () => {
     },
     {
       id: "cabin",
-      title: "Break",
-      startyear: 2023.11,
-      endyear: 2024.1,
-      company: "Log Cabin",
+      title: " ",
+      startyear: 2023.10,
+      endyear: 2023.12,
+      company: "Break to build a log cabin",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7139043341559566336/",
       logo: "/images/cabin.png",
       color: "bg-blue-500",
       isSecondment: true,
       description: "Built a log cabin in the wilds of Northern California",
       projects: [
-        "I left my job in Denmark and moved to Australia. A stopover in California gave me time to complete one of my dream projects... building a log cabin in the woods. No prior experience, just a desire to reconnect with nature and temporarily escape the hopelessness of working on sustainability everyday.",
+        "I left my job in Denmark and moved to Australia. A stopover in California gave me time to complete one of my dream projects... building a log cabin in the woods. No prior experience, just a desire to reconnect with nature and temporarily escape the hopelessness of working on sustainability everyday."
        ]
     },
     {
       id: "freelance",
       title: "Freelance",
-      startyear: 2024.3,
-      endyear: 2025.6,
+      startyear: 2023.12,
+      endyear: 2025.06,
       company: "Freelance Decarboinisation Specialist",
       link: "https://emoreconsulting.com/",
-      logo: "https://media.licdn.com/dms/image/v2/D560BAQGTEw-xl4GxfQ/company-logo_100_100/company-logo_100_100/0/1720436470906/e_more_consulting_logo?e=1756944000&v=beta&t=REbUQykH4qxOvP4kLqMfrWWRg48QM5O13LSkykeoO2M",
+      logo: "/images/EMC.png",
       color: "bg-blue-700",
       description: "Helping companies with measuring their GHG emissions, setting reduction targets, and co-creating a reduction strategy.",
       projects: [
@@ -227,23 +263,12 @@ export const Timeline = () => {
 
   // Helper function to convert decimal year to month number (1-12)
   const getMonthFromDecimal = (year: number): number => {
-    if (year % 1 === 0) {
-      return 1; // January for whole years
-    }
     const decimal = year - Math.floor(year);
     
-    // Handle different decimal formats
-    if (decimal >= 0.1 && decimal <= 0.12) {
-      // Format: 2023.11 (November), 2023.12 (December)
-      const month = Math.round(decimal * 100);
-      console.log(`Year: ${year}, Decimal: ${decimal}, Month: ${month}`);
-      return month;
-    } else {
-      // Format: 2023.1 (January), 2023.2 (February), etc.
-      const month = Math.round(decimal * 10);
-      console.log(`Year: ${year}, Decimal: ${decimal}, Month: ${month}`);
-      return month;
-    }
+    // New format: .01 = January, .02 = February, ..., .11 = November, .12 = December
+    const month = Math.round(decimal * 100);
+    console.log(`Year: ${year}, Decimal: ${decimal}, Month: ${month}`);
+    return month;
   };
 
   // Helper function to format year display
@@ -275,9 +300,8 @@ export const Timeline = () => {
             Professional Journey
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            15 years of progressive experience from engineering fundamentals to climate leadership. 
-            Click on any period to explore the projects and achievements.
-          </p>
+            15 years of experience from engineering fundamentals to climate leadership. 
+            </p>
         </div>
 
         <div className="mb-12">
@@ -295,11 +319,11 @@ export const Timeline = () => {
               <div className="relative h-16 bg-gray-100 rounded-lg overflow-hidden">
                 {academicData.map((item) => {
                   // Convert decimal years to actual month positions
-                  const startYearDecimal = Math.floor(item.startyear) + (getMonthFromDecimal(item.startyear) - 1) / 12;
-                  const endYearDecimal = Math.floor(item.endyear) + (getMonthFromDecimal(item.endyear) - 1) / 12;
+                  const startYearDecimal = Math.floor(item.startyear) + (getMonthFromDecimal(item.startyear) - 1) / 12; // for January this is 0.01, for February this is 0.02, etc.
+                  const endYearDecimal = Math.floor(item.endyear) + (getMonthFromDecimal(item.endyear) - 1) / 12; // for January this is 0.01, for February this is 0.02, etc.
                   
-                  const startPos = ((startYearDecimal - startYear) / timelineSpan) * 100;
-                  const width = ((endYearDecimal - startYearDecimal) / timelineSpan) * 100;
+                  const startPos = ((startYearDecimal - startYear) / timelineSpan) * 100; // 0% is startYear, 100% is maxEndYear
+                  const width = ((endYearDecimal - startYearDecimal) / timelineSpan) * 100; // 0% is startYear, 100% is maxEndYear
                   
                   return (
                     <div
@@ -308,7 +332,7 @@ export const Timeline = () => {
                       style={{
                         left: `${startPos}%`,
                         width: `${width}%`,
-                        minWidth: '50px'
+                        minWidth: '0px'
                       }}
                       onClick={() => setSelectedPeriod(selectedPeriod === item.id ? null : item.id)}
                     >
@@ -341,7 +365,7 @@ export const Timeline = () => {
                       style={{
                         left: `${startPos}%`,
                         width: `${width}%`,
-                        minWidth: '50px',
+                        minWidth: '0px',
                         top: isSecondment ? '16px' : '8px'
                       }}
                       onClick={() => setSelectedPeriod(selectedPeriod === item.id ? null : item.id)}
@@ -395,7 +419,7 @@ export const Timeline = () => {
                   <p className="text-lg text-gray-600 mb-6 leading-relaxed">{selected.description}</p>
                   
                   <div>
-                    <h5 className="text-lg font-semibold text-gray-900 mb-4">Key Projects & Achievements:</h5>
+                    <h5 className="text-lg font-semibold text-gray-900 mb-4">Achievements:</h5>
                     <ul className="grid md:grid-cols-2 gap-3">
                       {selected.projects.map((project, index) => (
                         <li key={index} className="flex items-start gap-3">
